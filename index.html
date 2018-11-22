@@ -3,7 +3,7 @@
 	<head>
 		<title> Table de l'Orchidee </title> 
 		<!-- This title will not be seen in the page, but it is the title of browser window	-->
-		<link rel="icon" type="image/jpg" href="Images/logo.jpg" sizes="20x20">
+		<link rel="icon" type="image/jpg" href="../Images/logo.jpg" sizes="20x20">
 		<!-- This link will make a favicon which is the logo beside the title of browser window. -->
 		<meta name="description" content="Restaurant Vietnamien"/>
 		<meta name="keywords" content="Vienamien, restaurant"/>
@@ -14,72 +14,25 @@
 		<!-- in HTML4.01, we can use <meta http-equiv="content-type" content="text/html; charset=UTF-8"> to set charset and document type. However, it is nolonger used in HTML5. -->
 		<meta charset="utf-8">
 
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="Stylesheet" type="text/css" href="css/style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
 	</head>
 	<body>
 		<header>
-			<h1> Table de l'Orchidee </h1>
-			<h2>This is heading 2</h2>
-			<h3>This is heading 3</h3>
-			<h4>This is heading 4</h4>
-			<h5>This is heading 5</h5>
-			<h6>This is heading 6</h6>
-			<!-- Maximum 6 headings -->
-			<!-- Use heading tags allow us, as well as the search engines, to easily discriminate the importance of content in these tags, it is not for styling. If we want to make some styles (bigger, bolder,..) we can do it in style sheet -->
-		</header>
+		<!-- Navigation Bar -->
+		<nav id="header-nav" class="navbar navbar-default">	
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html">
+						<div id="logo-img" alt="Logo image">
 
-				Table de l'Orchidee
-		
-		<div id="left"> Menu </div>
-		<div id="right"> Specialite </div>
-		<!-- div tags allow us to group or wrap the content which have the similar types or meanings. It is effective for styling: to group the content with the same styling -->
-		<span> </span>
-		<!-- similar to div tags, which means it is effective in styling. The span tag identify the inline content, meaning material that is within a block of text -->
-
-		<p> Paragraph 1. This is some text. It will be very long. I want to break it into some paragraphs </p>
-		<p> Paragraph 2. This is some text. It will be very long. I want to break it into some paragraphs </p>
-
-		<ol>
-			<li> Severe pain </li>
-			<li> Moderate pain </li>
-			<li> Mild pain</li>
-		</ol>
-		<!-- <ol> tag, ordered list, to make an ordered/numbered list -->
-
-		<ul>
-			<li> Cafe </li>
-			<li> Chocolate </li>
-			<li> Cacao </li>
-		</ul>
-		<!-- <ul> tag, unordered list, to make the bullet list -->
-
-		<dl>
-			<dt> Cafe</dt>
-				<dd> Bean-based cafeinated beverage </dd>
-			<dt> Tea </dt>
-				<dd> Leaf-base cafeinated beverage </dd>
-			<dt> Water</dt>
-				<dd> Standard H20 </dd>
-		</dl>
-		<!-- <dl> tag to make a definition list, which is list inside another list -->
-
-		<article> This part still has meaning when it stands alone or separate to the current site. It can be cited or publish independenly in another page, but people still undersand it without go to its original page. </article>
-		
-		<aside> </aside>
-		<!-- similarly to <article>, the <aside> tag can stands alone but it is related to the current content, or to complement the current content -->
-
-		<button type="button"> Click here </button>
-		<button type="button">
-			<img src="img.pnj"/>
-		</button>
-
-		<a href="http://www.msn.com" target="_blank"> This link is an absolute path which will open a new page </a>
-		<a href="/Mypage/Exercises/index.html" target="_blank"> This link is a relative path which will open a  html file in your folder </a>
-		<!-- <a> is an anchor tag; its href attribute can open another page in a new tab-->
-
-		<a href="#NextSection"> Click here to jump to next section within this page </a>
-		<a name="NextSection"> This is where we will jump to.
-
-		<video src="myfile.mp4" width="200" height="150" autoplay controls preload="auto" poster="videoImage.png">	
+						</div>
+				</div>
+			</div>
+		</nav>
 
 		<footer>
 			&copy; 2018
@@ -88,5 +41,8 @@
 				France
 			</address>
 		</footer>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
 	</body>
 </html>

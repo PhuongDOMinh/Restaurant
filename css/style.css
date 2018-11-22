@@ -1,8 +1,10 @@
-body {
-	background-image: url("../IMG_5457.JPG");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	}
-.navheader {padding: 20px ;}
-#id {float:right;}
+
+#header-nav {
+	background-color: #734d26;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../Images/logo.jpg');
+}
